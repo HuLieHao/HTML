@@ -18,3 +18,6 @@
   </style>
   
   //其中wrapper为要在那个div上loading
+  var wrapper = $("#wrapper");
+  wrapper.spinModal();
+  wrapper.spinModal(false);
